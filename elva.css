@@ -1,0 +1,614 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 20px 20px 20px; /* Added padding from top */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    gap: 20px;
+  }
+
+
+  .Mumbai {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    gap: 0.2em;
+    text-align: left;  /* Align text to the left */
+  }
+  
+  .first {
+    display: inline-block;
+    position: relative;
+    width: 1.68ch;
+    height: 1em;
+    overflow: hidden;
+  }
+  
+  .first span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+  }
+  
+  .first .icon {
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+    animation: icon-up 2.5s infinite ease-in-out;
+  }
+  
+  .first .character {
+    animation: char-down 2.5s infinite ease-in-out;
+  }
+  
+  @keyframes icon-up {
+    0%, 50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    51%, 100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes char-down {
+    0%, 50% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    51%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 20px 20px 20px; /* Added padding from top */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    gap: 20px;
+  }
+/* Container Styles */
+.Three {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  display: inline-flex;
+  gap: 0.2em;
+  text-align: left; 
+}
+
+/* Replaceable Wrapper Styles */
+.solution {
+  display: inline-block;
+  position: relative;
+  width: 1.5ch; /* Space reserved for the character */
+  height: 1em; /* Match the height of the font */
+  overflow: hidden;
+}
+
+.solution span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+}
+
+/* Icon and Character Animations */
+.solution .icon {
+  font-size: 0.90em; /* Same size as the font */
+  line-height: 1em;
+  vertical-align: middle;
+  animation: icon-up 2.2s infinite ease-in-out;
+}
+
+.solution .character {
+  animation: char-down 2.2s infinite ease-in-out;
+}
+
+/* Keyframes for Animations */
+@keyframes icon-up {
+  0%, 50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  51%, 100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes char-down {
+  0%, 50% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  51%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 20px 20px 20px; /* Added padding from top */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    gap: 20px;
+  }
+  
+  /* Container Styles */
+  .Design {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    gap: 0.2em;
+    text-align: left; 
+  }
+  
+  /* Replaceable Wrapper Styles */
+  .focused {
+    display: inline-block;
+    position: relative;
+    width: 1.3ch; /* Space reserved for the character */
+    height: 1em; /* Match the height of the font */
+    overflow: hidden;
+  }
+  
+  .focused span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+  }
+  
+  /* Icon and Character Animations */
+  .focused .icon {
+    font-size: 0.72em; /* Same size as the font */
+    line-height: 1.5em;
+    vertical-align: middle;
+    animation: icon-up 2.9s infinite ease-in-out;
+  }
+  
+  .focused .character {
+    animation: char-down 2.9s infinite ease-in-out;
+  }
+  
+  /* Keyframes for Animations */
+  @keyframes icon-up {
+    0%, 50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    51%, 100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes char-down {
+    0%, 50% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    51%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 20px 20px 20px; /* Added padding from top */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    gap: 20px;
+  }
+  
+  .Result {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    gap: 0.2em;
+  }
+  
+  .driven {
+    display: inline-block;
+    position: relative;
+    width: 1.30ch; /* Space reserved for the character */
+    height: 1em; /* Match the height of the font */
+    overflow: hidden;
+  }
+  
+  .driven span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+  }
+  
+  .driven .icon {
+    font-size: 0.82em; /* Same size as the font */
+    line-height: 1.5em;
+    vertical-align: middle;
+    animation: icon-up 2.2s infinite ease-in-out;
+  }
+  
+  .driven .character {
+    animation: char-down 2.2s infinite ease-in-out;
+  }
+  
+  @keyframes icon-up {
+    0%, 50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    51%, 100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes char-down {
+    0%, 50% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    51%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 20px 20px 20px; /* Added padding from top */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    gap: 20px;
+  }
+  
+  .Premium{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    gap: 0.2em;
+  }
+  
+  .services {
+    display: inline-block;
+    position: relative;
+    width: 1.45ch; /* Space reserved for the character */
+    height: 1.50em; /* Match the height of the font */
+    overflow: hidden;
+  }
+  
+  .services span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+  }
+  
+  .services .icon {
+    font-size: 0.68em; /* Same size as the font */
+    line-height: 1.5em;
+    vertical-align: left;
+    animation: icon-up 3s infinite ease-in-out;
+  }
+  
+  .services .character {
+    animation: char-down 3s infinite ease-in-out;
+  }
+  
+  @keyframes icon-up {
+    0%, 50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    51%, 100% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes char-down {
+    0%, 50% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    51%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+  }
+  
+  .header {
+    font-size: 3.5rem;        /* Font size set to 4rem */
+    font-family: Arial, sans-serif; /* Custom font */
+    color: black;
+    padding: 1px;        /* Padding added */
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: -1px;
+  }
+  .bottom {
+    color: black;
+    font-size: 3.5rem;
+    font-family: Arial, sans-serif; 
+    font-weight: 600;
+    line-height: 30px;
+    word-wrap: break-word
+  }
+  
+  // Company
+color: black;
+font-size: 33.19px;
+font-family: Times New Roman;
+font-weight: 700;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Legal information
+color: black;
+font-size: 33.19px;
+font-family: Times New Roman;
+font-weight: 700;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Subscribe Now
+color: black;
+font-size: 33.19px;
+font-family: Times New Roman;
+font-weight: 700;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// About Us
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Privacy policy
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Terms of Use
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Terms and Conditions
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Blog
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Career
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// Our Team
+color: black;
+font-size: 21.81px;
+font-family: Poppins;
+font-weight: 300;
+line-height: 28.45px;
+word-wrap: break-word
+---
+// EMAIL
+color: #999999;
+font-size: 18.97px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 28.45px;
+letter-spacing: 1.52px;
+word-wrap: break-word
+---
+// Subscribe
+color: black;
+font-size: 18.97px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 28.45px;
+letter-spacing: 1.52px;
+word-wrap: break-word
+
+// We have 
+color: black;
+ font-size: 25.67px;
+ font-family: Playfair Display;
+ font-weight: 400;
+ line-height: 30px;
+ word-wrap: break-word
+---
+// 100+ 
+color: #FF0101;
+ font-size: 26px;
+ font-family: Playfair Display;
+ font-weight: 400;
+ line-height: 30px;
+ word-wrap: break-word
+---
+// Success Stories! Do you Want to be next?
+color: black;
+ font-size: 26px;
+ font-family: Playfair Display;
+ font-weight: 400;
+ line-height: 30px;
+ word-wrap: break-word
+
+ /* Container for the hamburger */
+.hamburger {
+  position: absolute;
+  top: 20px; /* Adjusts the vertical position */
+  right: 20px; /* Adjusts the horizontal position */
+  width: 25px; /* Small width for the hamburger */
+  height: 18px; /* Small height for the hamburger */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+/* Container for the hamburger */
+.hamburger {
+  position: absolute;
+  top: 45px; /* Distance from the top of the page */
+  right: 55px; /* Distance from the right of the page */
+  width: 30px; /* Small width for the hamburger */
+  height: 24px; /* Small height for the hamburger */
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  cursor: pointer;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+/* Common styles for hamburger lines */
+.hamburger div {
+  position: absolute;
+  width: 30px; /* Adjusted width for smaller hamburger */
+  height: 4px; /* Thin lines for smaller size */
+  background-color: black;
+  border-radius: 2px; /* Rounded edges for the lines */
+  transition: all 0.3s ease;
+}
+
+/* Positioning the lines */
+.hamburger .line1 {
+  top: 0;
+}
+.hamburger .line2 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hamburger .line3 {
+  bottom: 0;
+}
+
+/* Change color on hover */
+.hamburger:hover div {
+  background-color: #ff5722;
+}
+
+/* Transform to an 'X' when active */
+.hamburger.active .line1 {
+  transform: rotate(45deg);
+  top: 50%;
+}
+.hamburger.active .line2 {
+  opacity: 0;
+}
+.hamburger.active .line3 {
+  transform: rotate(-45deg);
+  bottom: 50%;
+}
+
